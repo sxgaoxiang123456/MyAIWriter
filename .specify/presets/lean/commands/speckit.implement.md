@@ -1,15 +1,6 @@
 ---
-name: speckit-implement
-description: Execute all tasks from the task breakdown to build the feature.
-compatibility: Requires spec-kit project structure with .specify/ directory
-metadata:
-  author: github-spec-kit
-  source: preset:lean
-user-invocable: true
-disable-model-invocation: false
+description: Execute the implementation plan by processing all tasks in tasks.md.
 ---
-
-# Speckit Implement Skill
 
 ## User Input
 

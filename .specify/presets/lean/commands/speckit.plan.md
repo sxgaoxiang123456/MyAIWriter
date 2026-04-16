@@ -1,15 +1,6 @@
 ---
-name: speckit-plan
-description: Generate technical implementation plans from feature specifications.
-compatibility: Requires spec-kit project structure with .specify/ directory
-metadata:
-  author: github-spec-kit
-  source: preset:lean
-user-invocable: true
-disable-model-invocation: false
+description: Create a plan and store it in plan.md.
 ---
-
-# Speckit Plan Skill
 
 ## User Input
 

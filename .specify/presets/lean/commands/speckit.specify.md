@@ -1,15 +1,6 @@
 ---
-name: speckit-specify
-description: Create or update feature specifications from natural language descriptions.
-compatibility: Requires spec-kit project structure with .specify/ directory
-metadata:
-  author: github-spec-kit
-  source: preset:lean
-user-invocable: true
-disable-model-invocation: false
+description: Create a specification and store it in spec.md.
 ---
-
-# Speckit Specify Skill
 
 ## User Input
 

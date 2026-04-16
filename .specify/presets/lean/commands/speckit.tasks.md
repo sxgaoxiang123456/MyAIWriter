@@ -1,15 +1,6 @@
 ---
-name: speckit-tasks
-description: Break down implementation plans into actionable task lists.
-compatibility: Requires spec-kit project structure with .specify/ directory
-metadata:
-  author: github-spec-kit
-  source: preset:lean
-user-invocable: true
-disable-model-invocation: false
+description: Create the tasks needed for implementation and store them in tasks.md.
 ---
-
-# Speckit Tasks Skill
 
 ## User Input
 
