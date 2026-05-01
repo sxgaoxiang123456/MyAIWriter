@@ -7,8 +7,9 @@ export type SceneKey =
   | 'translation';
 
 export interface Scene {
-  key: SceneKey;
-  label: string;
+  id: SceneKey;
+  name: string;
+  icon: string;
   systemPrompt: string;
 }
 

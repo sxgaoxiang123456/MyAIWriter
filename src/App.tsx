@@ -19,7 +19,7 @@ export default function App() {
     inputText.trim() === '' || isOverLimit || resultState.status === 'loading';
 
   const handlePolish = async () => {
-    const scene = SCENES.find((s) => s.key === selectedScene);
+    const scene = SCENES.find((s) => s.id === selectedScene);
     if (!scene) return;
 
     setResultState({ status: 'loading' });
